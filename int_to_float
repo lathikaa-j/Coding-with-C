@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+    float f;
+
+    printf("Enter a number of int data type:");
+    scanf("%d",&i);
+
+    f= (float)i;
+
+    printf("The integer variant of the number is %f",f);
+
+    return 0;
+}
