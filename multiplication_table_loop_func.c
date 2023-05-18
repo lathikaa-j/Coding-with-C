@@ -1,7 +1,10 @@
 #include<stdio.h>
-int multiplication(int a)
+int multiplication(int n)
 {
-    printf("The multiplication table is \n %d\n %d\n %d\n %d\n %d\n",a*1,a*2,a*3,a*4,a*5);
+    int i;
+    for(i=1;i<=10;i++){
+    printf("%d*%d=%d\n",n,i,n*i);
+    }
     return 0;
 }
 int main()
